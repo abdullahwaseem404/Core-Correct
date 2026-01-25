@@ -2,6 +2,8 @@
 
 # Live Pose Detection with MediaPipe & Streamlit
 
+Working Demo : https://www.youtube.com/watch?v=8oGYRFiAf8k
+
 This project performs **real-time human pose detection** using a webcam.  
 It uses **MediaPipe Pose** for landmark detection, **OpenCV** for video processing, and **Streamlit** for a simple web interface.
 
