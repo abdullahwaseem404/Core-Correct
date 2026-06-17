@@ -1,61 +1,55 @@
-# Core-Correct
+# 🧍 Core-Correct: Real-Time Pose Estimation System
 
-# Live Pose Detection with MediaPipe & Streamlit
-
-Working Demo : https://www.youtube.com/watch?v=8oGYRFiAf8k
-
-This project performs **real-time human pose detection** using a webcam.  
-It uses **MediaPipe Pose** for landmark detection, **OpenCV** for video processing, and **Streamlit** for a simple web interface.
+An interactive **real-time pose estimation application** built with Streamlit, OpenCV, MediaPipe, and MoveNet. This system detects human body keypoints, calculates joint angles, and provides live posture feedback.
 
 ---
 
 ## 🚀 Features
-- Real-time pose detection using webcam
-- 33 body landmarks with skeletal connections
-- Streamlit-based interactive UI
-- Lightweight and fast
+
+* 📷 Real-time webcam pose detection
+* 🤖 Dual model support:
+  * MediaPipe Pose
+  * MoveNet
+* 📐 Joint angle calculation
+* 🔄 Temporal smoothing for stable tracking
+* ⚡ FPS monitoring
+* ⚠️ Posture correction alerts
+* 🎛️ Interactive Streamlit controls
 
 ---
 
-## 🛠️ Tech Stack
-- Python
-- Streamlit
-- OpenCV
-- MediaPipe
-- NumPy
+## 🧠 Models Used
+### 🔹 MediaPipe Pose
+* Fast and lightweight
+* Good for real-time applications
+### 🔹 MoveNet (Lightning)
+* Deep learning-based pose estimation
+* More robust and accurate
 
 ---
 
-## 📦 Installation
+## ⚙️ Installation
 
-### 1️⃣ Clone the repository
-```bash
+```bash id="w72kq1"
 git clone https://github.com/abdullahwaseem404/Core-Correct.git
-```
-2️⃣ Create and activate a virtual environment
-```bash
-python -m venv mp_env
-```
-
-Windows
-```bash
-mp_env\Scripts\activate
-```
-
-Mac/Linux
-```bash
-source mp_env/bin/activate
-```
-3️⃣ Install dependencies
-```bash
 pip install -r requirements.txt
 ```
-▶️ Run the App
-```bash
+
+---
+
+## ▶️ Usage
+
+Run the Streamlit app:
+```bash id="z91k2l"
 streamlit run app.py
 ```
 
-Then open your browser at:
-```bash
-http://localhost:8501
-```
+---
+
+## 📊 Performance
+
+* Real-time FPS tracking
+* Adjustable smoothing for stability
+* Optimized for lightweight inference
+
+---
